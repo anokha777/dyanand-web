@@ -80,11 +80,11 @@
         </form>
       </div>
       <div class="full jss_menu">
-        <div id="menuzord" class="menuzord red menuzord-responsive column"><a href="#" (click)="expandFunction()" class="showhide"
-            ><em></em><em></em><em></em></a>
+        <div id="menuzord" class="menuzord red menuzord-responsive column"><span (click)="expandFunction()" class="showhide"
+            ><em></em><em></em><em></em></span>
           <ul id="menu-main-menu" class="menuzord-menu menuzord-right menuzord-indented scrollable">
             <li id="menu-item-172" class="header-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-172"><a
-                href="#">About<span class="indicator"><i class="fa fa-angle-down"></i></span></a>
+                href="javascript:void(0)">About<span class="indicator"><i class="fa fa-angle-down"></i></span></a>
               <ul class="dropdown dropdown-open">
                 <li id="menu-item-140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-140"><a
                     href="http://jssateb.ac.in/organization/">Organization</a></li>
@@ -108,7 +108,7 @@
             </li>
             <li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a href="http://jssateb.ac.in/admission/">Admission</a></li>
             <li id="menu-item-265" class="header-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-265"><a
-                href="http://jssateb.ac.in/courses/">Academics<span class="indicator"><i class="fa fa-angle-down"></i></span></a>
+                href="javascript:void(0)">Academics<span class="indicator"><i class="fa fa-angle-down"></i></span></a>
               <ul class="dropdown dropdown-open">
                 <li id="menu-item-245" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-245"><a
                     href="http://jssateb.ac.in/academics/under-graduate/">Under Graduate</a></li>
@@ -120,7 +120,7 @@
             </li>
             <li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="http://jssateb.ac.in/research/">Research</a></li>
             <li id="menu-item-59" class="header-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-59"><a
-                href="http://jssateb.ac.in/campus-life/">Campus Life<span class="indicator"><i class="fa fa-angle-down"></i></span></a>
+                href="javascript:void(0)">Campus Life<span class="indicator"><i class="fa fa-angle-down"></i></span></a>
               <ul class="dropdown dropdown-open">
                 <li id="menu-item-1399" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1399"><a
                     href="http://jssateb.ac.in/campus-life/facilities/">Facilities</a></li>
@@ -152,20 +152,3 @@
     </div>
   </div>
 </header>
-
-<script>
-
-$(document).ready(function() {
-  // $( ".cross" ).hide();
-  // $( ".menu" ).hide();
-console.log('7777777777777777777777777777777777777');
-  $( ".showhide" ).click(function() {
-    $( ".menuzord-menu" ).slideToggle( "slow", function() {
-      $( ".showhide" ).hide();
-      $( ".showhide" ).show();
-    });
-  });
-
-});
-
-</script>

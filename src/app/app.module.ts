@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BannerCarouselComponent } from './banner-carousel/banner-carousel.component';
 import { SuccessInfoBannerComponent } from './success-info-banner/success-info-banner.component';
+import { BackToTopComponent } from './back-to-top/back-to-top.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { SuccessInfoBannerComponent } from './success-info-banner/success-info-b
     HeaderComponent,
     FooterComponent,
     BannerCarouselComponent,
-    SuccessInfoBannerComponent
+    SuccessInfoBannerComponent,
+    BackToTopComponent
   ],
   imports: [
     BrowserModule

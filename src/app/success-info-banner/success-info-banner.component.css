@@ -52,8 +52,9 @@ blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, t
   line-height: 18px;
   font-weight: bold;
   text-align: center;
+  border-left: 1px solid #dbac68;
   border-right: 1px solid #dbac68;
-  border-left: 1px solid #f2c686;
+
 }
 
 .jss_count_01 {

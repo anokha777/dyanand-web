@@ -1,14 +1,17 @@
 .footer {
   background: #242323;
-  color: white; }
+  color: white;
+}
 
 .footer h4 {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: #fff;
+  color: #e9d1a1;
   text-transform: uppercase;
-  padding-top: 30px; }
+  padding-top: 30px;
+  line-height: 40px
+}
 
 .footer p {
   font-size: 14px;

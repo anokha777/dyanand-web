@@ -1,0 +1,120 @@
+div {
+  display: block;
+}
+
+.services {
+  padding: 5em 0;
+}
+
+.heading-agileinfo {
+  font-weight: 600;
+  letter-spacing: .5px;
+  font-size: 40px;
+  margin-bottom: 1.9em;
+  text-align: center;
+  color: #ff4f81;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.heading-agileinfo span {
+  display: block;
+  font-size: 17px !important;
+  margin-top: 1em;
+  letter-spacing: 4px;
+  text-transform: capitalize;
+  color: #000000;
+  font-weight: 500;
+}
+
+.heading-agileinfo span:after {
+  content: '';
+  background: #212121;
+  height: 2px;
+  width: 70px;
+  position: absolute;
+  top: 132%;
+  right: 47%;
+}
+
+.services-top-grids {
+  margin-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.services-bottom-grids {
+  margin-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.grid1 {
+  text-align: center;
+  background: #e0e0e0;
+  background: #ffc107;
+  background: #fff;
+  padding: 25px 40px;
+  -webkit-box-shadow: 0 0 40px #aaa;
+  -moz-box-shadow: 0 0 40px #aaa;
+  box-shadow: 0 0 40px #aaa;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -webkit-box-shadow: 0px 1px 8px 0px rgba(158, 158, 158, 0.75);
+  -moz-box-shadow: 0px 1px 8px 0px rgba(158, 158, 158, 0.75);
+  box-shadow: 0px 1px 8px 0px rgba(158, 158, 158, 0.5);
+}
+
+.grid1:hover {
+  background: #8ee9e4;
+}
+
+.grid1 i.fa {
+  font-size: 40px;
+  color: #8080ff;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-mortar-board:before, .fa-graduation-cap:before {
+  content: "\f19d";
+}
+
+.grid1 h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 25px 0 20px;
+  color: #212121;
+}
+
+.grid1 p {
+  font-size: 14px;
+  letter-spacing: .5px;
+  color: #6b6b6b;
+}
+
+p {
+  margin: 0;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+

@@ -15,7 +15,7 @@ div {
   color: #ff4f81;
   text-transform: uppercase;
   position: relative;
-  margin-top: 0;
+  margin-top: 3rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,11 +46,23 @@ h1, h2, h3, h4, h5, h6 {
 .services-top-grids {
   margin-bottom: 30px;
   margin-bottom: 30px;
+  display: flex;
 }
 
 .services-bottom-grids {
   margin-bottom: 30px;
   margin-bottom: 30px;
+  display: flex;
+}
+
+@media screen and (max-width: 640px) {
+  .services-bottom-grids {
+    flex-direction: column;
+  }
+
+  .services-top-grids {
+    flex-direction: column;
+  }
 }
 
 .grid1 {
@@ -117,4 +129,3 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-

@@ -3,6 +3,11 @@
   max-height: 400px !important;
 }
 
+.carousel-control-next, .carousel-control-prev {
+
+  top: 9rem;
+}
+
 @media screen and (max-width: 640px) {
   #carouselExampleControls {
     display: none;
@@ -12,3 +17,5 @@
 .carousel {
   position: inherit;
 }
+
+

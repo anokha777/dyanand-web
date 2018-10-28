@@ -8,6 +8,9 @@ import { BannerCarouselComponent } from './banner-carousel/banner-carousel.compo
 import { SuccessInfoBannerComponent } from './success-info-banner/success-info-banner.component';
 import { BackToTopComponent } from './back-to-top/back-to-top.component';
 import { HomeBodyComponent } from './home-body/home-body.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
+import { InfoWithImageComponent } from './info-with-image/info-with-image.component';
+import { MackbookImageInfoComponent } from './mackbook-image-info/mackbook-image-info.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { HomeBodyComponent } from './home-body/home-body.component';
     BannerCarouselComponent,
     SuccessInfoBannerComponent,
     BackToTopComponent,
-    HomeBodyComponent
+    HomeBodyComponent,
+    TestimonialComponent,
+    InfoWithImageComponent,
+    MackbookImageInfoComponent
   ],
   imports: [
     BrowserModule

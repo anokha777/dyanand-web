@@ -1,0 +1,28 @@
+#testimonial .container-fluid {
+  padding: 100px;
+  background-color: #c0c0ba;
+}
+
+.carousel-inner .carousel-item .img-box {
+  width: 135px;
+  /* height: 135px; */
+}
+
+.carousel-control-prev {
+  left: -100px;
+}
+
+.carousel-control-next {
+  right: -100px;
+}
+
+.carousel-indicators {
+  top: 280px;
+}
+
+
+@media only screen and (max-width: 375px) {
+  #testimonial .container-fluid {
+    padding: 50px;
+  }
+}

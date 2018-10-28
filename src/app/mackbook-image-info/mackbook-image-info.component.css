@@ -154,7 +154,7 @@ background: linear-gradient(53deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 24
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
 
   .md-macbook-pro {

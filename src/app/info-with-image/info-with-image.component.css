@@ -38,4 +38,11 @@
   .side-info {
     margin: 10px;
   }
+
+  .info_btn {
+    height: 100px;
+    padding: 10px;
+    transition: .3s ease-out;
+    padding-top: 0;
+  }
 }
